@@ -1,6 +1,6 @@
 // Google Calendar APIキーとカレンダーIDをここに設定してください
-const API_KEY = '';
-const CALENDAR_ID = '';
+const API_KEY = 'AIzaSyAuQE80gvFQ545_31rRpLW4bpbSaAfeULc';
+const CALENDAR_ID = 'c_1aae419b8adeabc9515b977df1d9120a7f6ffccb27076058b1f9a43e32eb81ea@group.calendar.google.com';
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchEvents();
