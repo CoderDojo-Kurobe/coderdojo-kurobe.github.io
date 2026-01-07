@@ -40,24 +40,6 @@ nav a {
 }
 
 
-/* ヒーロー */
-.hero {
-  height: 50vh;
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-top: 60px; /* ヘッダー分 */
-}
-
-
-.hero h1 {
-  font-size: 2.4rem;
-}
-
-
 .cta {
   display: inline-block;
   margin-top: 30px;
@@ -73,7 +55,7 @@ nav a {
 .container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 100px 20px 40px; /* 上はヘッダー分 */
+  padding: 50px 20px 40px; /* 上はヘッダー分 */
   background: #fff;
 }
 
