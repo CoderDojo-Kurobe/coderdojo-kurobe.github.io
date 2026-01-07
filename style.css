@@ -40,6 +40,24 @@ nav a {
 }
 
 
+/* ヒーロー */
+.hero {
+  height: 40vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 60px; /* ヘッダー分 */
+}
+
+
+.hero h1 {
+  font-size: 2.4rem;
+}
+
+
 .cta {
   display: inline-block;
   margin-top: 30px;
