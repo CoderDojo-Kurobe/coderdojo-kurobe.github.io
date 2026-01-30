@@ -1,52 +1,126 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoderDojo黒部</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>CoderDojo黒部</h1>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoderDojo黒部｜小中学生のための無料プログラミング教室</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 固定ヘッダー -->
+    <header class="site-header">
+      <div class="header-inner">
+        <span class="logo">CoderDojo黒部</span>
+        <nav>
+          <a href="#about">概要</a>
+          <a href="#activities">活動内容</a>
+          <a href="#contact">連絡先</a>
+        </nav>
+      </div>
+    </header>
 
-        <main>
-            <section>
-                <h2>開催スケジュール</h2>
-                <div id="calendar-events">
-                    <p>カレンダーを読み込み中です...</p>
-                </div>
-            </section>
 
-            <section>
-                <h2>参加条件</h2>
-                <ul>
-                    <li>誰でも参加できます</li>
-                    <li>参加無料(申込不要)</li>
-                    <li>持ち物：PC(あれば)</li>
-                    <li>備考：FreeWifi有り</li>
-                </ul>
-            </section>
+    <!-- ヒーロー（スクロールで隠れる） -->
+    <section class="hero">
+      <div class="hero-inner">
+        <h2>開催スケジュール</h2>
+          <div id="calendar-events">
+            <p>カレンダーを読み込み中です...</p>
+          </div>
+      </div>
+    </section>
 
-            <section>
-                <h2>CoderDojo黒部とは</h2>
-                <p>CoderDojoは7〜17歳を対象とした非営利のプログラミング道場です。2011年にアイルランドで始まり、世界では112カ国・2,200の道場、日本には238以上の道場があります。(2020年02月現在)</p>
-                <p>CoderDojo黒部はCoderDojo Foundationの承認を受け、一般社団法人 CoderDojo Japanにより富山県黒部市で活動することを認められたコミュニティです。</p>
-            </section>
 
-            <section>
-                <h2>連絡先</h2>
-                <p>Mail：info@coderdojo-kurobe.org</p>
-            </section>
-        </main>
+    <main class="container">
+      <section>
+        <h2>CoderDojo黒部とは？</h2>
+        <p class="lead">
+          ゲームやアプリ、ロボットなどを作りながら、<br>
+          <strong>自分のアイデアをカタチにする</strong>場所です。
+        </p>
+        <p>
+          CoderDojoは2011年にアイルランドで生まれ、現在は世界112カ国以上で活動する
+          非営利のプログラミングコミュニティです。CoderDojo黒部は、
+          一般社団法人 CoderDojo Japan に承認された公式Dojoとして活動しています。
+        </p>
+      </section>
 
-        <footer>
-            <p>&copy; 2023 CoderDojo黒部</p>
-        </footer>
-    </div>
 
+      <section id="activities" class="activities">
+        <h2>どんなことをしているの？</h2>
+        <div class="activity-grid">
+          <div class="activity-card" style="background-image:url('images/game.jpg')">
+            <div class="overlay">
+              <h3>🎮 ゲーム作り</h3>
+              <p>Scratchで自分だけのゲームを作ろう</p>
+            </div>
+          </div>
+          <div class="activity-card" style="background-image:url('images/python.jpg')">
+            <div class="overlay">
+              <h3>🐍 プログラミング</h3>
+              <p>Pythonで考える力を育てる</p>
+            </div>
+          </div>
+          <div class="activity-card" style="background-image:url('images/robot.jpg')">
+            <div class="overlay">
+              <h3>🤖 ロボット</h3>
+              <p>動かして学ぶテクノロジー</p>
+            </div>
+          </div>
+          <div class="activity-card" style="background-image:url('images/free.jpg')">
+            <div class="overlay">
+              <h3>💡 自由制作</h3>
+              <p>やりたいことを形にしよう</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h2>1日の流れ</h2>
+        <ol class="flow">
+          <li>受付（申込不要・無料）</li>
+          <li>今日やりたいことを決める</li>
+          <li>メンターと一緒に制作</li>
+        </ol>
+      </section>
+
+
+      <section>
+        <h2>参加条件</h2>
+        <ul class="conditions">
+          <li>誰でも参加できます</li>
+          <li>参加無料（申込不要）</li>
+          <li>持ち物：PC（あれば）</li>
+          <li>Free Wi-Fiあり</li>
+        </ul>
+      </section>
+
+
+      <section>
+        <h2>よくある質問</h2>
+        <details>
+          <summary>プログラミング未経験でも大丈夫？</summary>
+          <p>もちろん大丈夫です。ほとんどの参加者が未経験からスタートしています。</p>
+        </details>
+        <details>
+          <summary>保護者の付き添いは必要ですか？</summary>
+          <p>基本的には不要ですが、見学・付き添いも歓迎しています。</p>
+        </details>
+      </section>
+
+
+      <section>
+        <h2>連絡先</h2>
+        <p>Mail：<a href="mailto:info@coderdojo-kurobe.org">info@coderdojo-kurobe.org</a></p>
+      </section>
+    </main>
+
+
+    <footer>
+      <p>&copy; 2025 CoderDojo黒部</p>
+    </footer>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
